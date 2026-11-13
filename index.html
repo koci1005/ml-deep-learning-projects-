@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071018">
+<meta name="description" content="Machine learning and deep learning project showcase by Mahmudul Hasan.">
+<title>ML & Deep Learning Projects | Mahmudul Hasan</title>
+<link rel="stylesheet" href="styles.css"></head><body>
+
+<div class="nav-shell">
+  <div class="container nav">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M4 17L9 12l3 3 7-8" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <span>ML / Deep Learning Lab</span>
+    </div>
+    <div class="nav-links">
+      <a href="#overview">Overview</a><a href="#workflow">Workflow</a><a href="#demo">Live Demo</a><a href="#methods">Methods</a><a href="#about">About</a>
+    </div>
+    <div class="nav-actions">
+      <button class="icon-btn mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+      <button class="icon-btn" id="backTop" aria-label="Back to top">↑</button>
+    </div>
+  </div>
+  <div class="container mobile-panel" id="mobilePanel">
+    <a href="#overview">Overview</a><a href="#workflow">Workflow</a><a href="#demo">Live Demo</a><a href="#methods">Methods</a><a href="#about">About</a>
+  </div>
+</div>
+<header class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="kicker"><span class="dot"></span>Research Project Showcase</span>
+      <h1><span class="gradient-text">Machine Learning & Deep Learning</span> for Healthcare Problems</h1>
+      <p>A polished project hub for CNN/ANN notebooks covering medical image classification, disease prediction, and healthcare cost regression using Python.</p>
+      <div class="cta"><a class="btn primary" href="#demo">Explore Interactive Showcase →</a><a class="btn" href="#workflow">View Workflow</a></div>
+    </div>
+    <div class="hero-card">
+      <div class="panel-top"><div class="panel-title">Project Console</div><div class="status"><i></i>Static demo ready</div></div>
+      <div class="stat-grid">
+        <div class="stat"><strong>3</strong><span>supported project categories from the CV</span></div>
+        <div class="stat"><strong>ML + DL</strong><span>CNN, ANN and regression workflows</span></div>
+        <div class="stat"><strong>Python</strong><span>core implementation language</span></div>
+        <div class="stat"><strong>No fake metrics</strong><span>results are not invented for presentation</span></div>
+      </div>
+      <div class="mini-flow">
+        <div class="mini-row"><div class="mini-icon">01</div><div><b>Prepare</b><span>data inspection and preprocessing</span></div></div>
+        <div class="mini-row"><div class="mini-icon">02</div><div><b>Model</b><span>task-specific ML / DL experimentation</span></div></div>
+        <div class="mini-row"><div class="mini-icon">03</div><div><b>Evaluate</b><span>transparent, task-appropriate assessment</span></div></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="section reveal" id="overview"><div class="container">
+  <div class="section-head"><div><div class="eyebrow">Project overview</div><h2>Three applied healthcare ML directions</h2><p>The scope follows the CV exactly: medical image classification, disease prediction, and healthcare cost regression.</p></div></div>
+  <div class="grid-3">
+    <article class="card hover"><div class="card-icon">🩻</div><h3>Medical Image Classification</h3><p>CNN-oriented experimentation for medical images, including preprocessing, model implementation, and evaluation.</p><div class="tags"><span class="tag">CNN</span><span class="tag">Image Preprocessing</span><span class="tag">TensorFlow / PyTorch</span></div></article>
+    <article class="card hover"><div class="card-icon">🧠</div><h3>Disease Prediction</h3><p>ANN and classical ML workflows for structured health data, with emphasis on clean preparation and careful evaluation.</p><div class="tags"><span class="tag">ANN</span><span class="tag">scikit-learn</span><span class="tag">Healthcare Data</span></div></article>
+    <article class="card hover"><div class="card-icon">📈</div><h3>Healthcare Cost Regression</h3><p>Regression-oriented analysis of demographic and behavioural variables for healthcare-cost prediction.</p><div class="tags"><span class="tag">Regression</span><span class="tag">pandas</span><span class="tag">Model Evaluation</span></div></article>
+  </div>
+</div></section>
+
+<section class="section reveal" id="workflow"><div class="container">
+  <div class="section-head"><div><div class="eyebrow">Research workflow</div><h2>From raw input to defensible evaluation</h2><p>A compact pipeline that reflects good notebook-based ML practice without claiming unsupported benchmark performance.</p></div></div>
+  <div class="pipeline">
+    <div class="step"><h3>Data preparation</h3><p>Inspect variables, clean records, encode inputs, and document preprocessing choices.</p></div>
+    <div class="step"><h3>Model design</h3><p>Select CNN, ANN, classification, or regression methods appropriate to the task.</p></div>
+    <div class="step"><h3>Evaluation</h3><p>Use task-appropriate metrics, held-out assessment, and error analysis where available.</p></div>
+    <div class="step"><h3>Reporting</h3><p>Summarise methods, limitations, model behaviour, and reproducible outputs.</p></div>
+  </div>
+</div></section>
+
+<section class="section reveal" id="demo"><div class="container">
+  <div class="section-head"><div><div class="eyebrow">Interactive showcase</div><h2>Explore each project track</h2><p>This interaction explains the supported workflow and deliverables. It intentionally does not fabricate prediction results.</p></div></div>
+  <div class="demo-shell" data-tabs>
+    <div class="tabs">
+      <button class="tab active" data-target="ml-img">Medical Imaging</button>
+      <button class="tab" data-target="ml-dis">Disease Prediction</button>
+      <button class="tab" data-target="ml-cost">Cost Regression</button>
+    </div>
+    <div class="tab-panel active" id="ml-img">
+      <div class="grid-2"><div class="card"><h3>Input</h3><p>Medical images prepared through resizing, normalization, and task-specific preprocessing.</p></div><div class="card"><h3>Model focus</h3><p>CNN-based feature learning and classification workflow.</p></div><div class="card"><h3>Evaluation focus</h3><p>Classification metrics, error inspection, and reproducible notebook outputs.</p></div><div class="card"><h3>Evidence policy</h3><p>Exact performance values should be linked from the original notebook or report, not invented here.</p></div></div>
+    </div>
+    <div class="tab-panel" id="ml-dis">
+      <div class="grid-2"><div class="card"><h3>Input</h3><p>Structured health variables after cleaning, encoding, and validation.</p></div><div class="card"><h3>Model focus</h3><p>ANN and classical machine-learning baselines for disease prediction.</p></div><div class="card"><h3>Evaluation focus</h3><p>Task-appropriate validation and comparison across candidate models.</p></div><div class="card"><h3>Interpretation</h3><p>Review errors and feature behaviour before drawing conclusions.</p></div></div>
+    </div>
+    <div class="tab-panel" id="ml-cost">
+      <div class="grid-2"><div class="card"><h3>Input</h3><p>Demographic and behavioural predictors in a structured regression dataset.</p></div><div class="card"><h3>Model focus</h3><p>Regression workflow for healthcare-cost prediction.</p></div><div class="card"><h3>Evaluation focus</h3><p>Regression metrics and residual/error inspection.</p></div><div class="card"><h3>Use case</h3><p>Demonstrates applied ML on real-world healthcare cost modelling questions.</p></div></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="section reveal" id="methods"><div class="container split">
+  <div class="card"><div class="eyebrow">Methods</div><h2>Technical toolkit</h2><div class="tech-list">
+    <div class="tech"><b>Python</b><span>data handling and model implementation</span></div>
+    <div class="tech"><b>PyTorch / TensorFlow</b><span>deep-learning experiments</span></div>
+    <div class="tech"><b>scikit-learn</b><span>classical ML and evaluation</span></div>
+    <div class="tech"><b>NumPy / pandas</b><span>data transformation and analysis</span></div>
+    <div class="tech"><b>Matplotlib</b><span>plots and experiment reporting</span></div>
+    <div class="tech"><b>Jupyter / Colab</b><span>reproducible notebooks</span></div>
+  </div></div>
+  <div class="card"><div class="eyebrow">Research integrity</div><h2>What this demo does not claim</h2>
+    <p>No dataset size, accuracy, AUC, F1 score, or benchmark result is hard-coded because those values are not stated in the supplied CV.</p>
+    <div class="notice">For a stronger public demo later, add the original notebooks, exact datasets/sources, and verified evaluation outputs to the repository.</div>
+  </div>
+</div></section>
+
+<section class="section reveal" id="about"><div class="container">
+  <div class="section-head"><div><div class="eyebrow">About the project</div><h2>Designed for GitHub Pages and academic sharing</h2><p>A concise live-demo layer that can be linked from a CV, LinkedIn project entry, or portfolio while keeping the underlying research claims conservative.</p></div></div>
+  <div class="accordion">
+    <div class="acc-item open"><button class="acc-btn">Why no prediction box here?<span>＋</span></button><div class="acc-content">A static page cannot honestly reproduce multiple Python ML/DL notebooks without the original trained artifacts. The page therefore demonstrates scope, workflow, and methods rather than simulating unsupported predictions.</div></div>
+    <div class="acc-item"><button class="acc-btn">Can notebook links be added later?<span>＋</span></button><div class="acc-content">Yes. Add links to verified notebooks, reports, or model artifacts after uploading them to the GitHub repository.</div></div>
+  </div>
+</div></section>
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div><b>Machine Learning & Deep Learning Projects</b><br><span>Mahmudul Hasan · Computer Science & Engineering</span></div>
+    <div class="footer-links"><a href="#overview">Overview</a><a href="#demo">Demo</a><a href="#methods">Methods</a></div>
+  </div>
+</footer>
+<div id="toast" class="toast"></div>
+<script src="script.js"></script></body></html>
